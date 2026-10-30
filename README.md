@@ -1324,21 +1324,28 @@ At 4-bit, a model that needed several expensive data-center GPUs can fit on far 
 
 If you'd like, I can next explain **what GPUs and training clusters actually do** during a big training run, or walk through a **tiny numerical example of quantization** so you can see exactly what gets rounded.
 COMPARISON OF CHATGPT AND CLAUDE:
-Quick verdict
-	My answers (Claude)	ChatGPT’s answers
-Style	Conversational, analogy-heavy (library, hospital, open-book exam)	Formal, textbook or report style
-Beginner-friendliness	Very high; explains every term in plain words	Medium; more definitions, fewer analogies
-Math	Light (formulas kept minimal)	More formal notation (P(xₜ | x₁…), C ≈ 6ND)
-Examples	Worked intuition (e.g. 10-step task at 80% accuracy ≈ 11%)	Mostly generic (“a business may…”)
-Depth on newer ideas	Covers extras like QLoRA, reasoning distillation, overtraining (Llama 3), the data wall	Covers GQA, RoPE, sparse attention, and a tidy “choosing the right approach” table
-Structure	Step-by-step flow, “quick recap” and next-step offers	Clean sections, a conclusion, summary tables
-Visuals	Text and tables only	Includes image links (many unrelated or broken-looking)
-Caution and accuracy	Notes trade-offs and the “mirage” debate	Also balanced; adds helpful caveats
-Key differences
-Teaching approach: Mine is built to explain. ChatGPT’s reads more like lecture notes you’d submit.
-Fit for you: Since you prefer simple, step-by-step, analogy-driven guidance, my version matches that better.
-Where ChatGPT is stronger: Its formal math, its exam-ready structure, and its extra architecture tricks (GQA, RoPE) are useful for reports or assignments.
-Small accuracy note: ChatGPT’s Chinchilla example (“70B with 140B tokens vs 1.4T tokens”) is explicitly illustrative. Mine used the real Gopher vs Chinchilla comparison, which ChatGPT also mentions at the end.
+Here's a short comparison of my answers and ChatGPT's across all four topics.
+
+## Quick verdict
+
+| | **My answers (Claude)** | **ChatGPT's answers** |
+|---|---|---|
+| **Style** | Conversational, analogy-heavy (library, hospital, open-book exam) | Formal, textbook or report style |
+| **Beginner-friendliness** | Very high; explains every term in plain words | Medium; more definitions, fewer analogies |
+| **Math** | Light (formulas kept minimal) | More formal notation (P(xₜ \| x₁…), C ≈ 6ND) |
+| **Examples** | Worked intuition (e.g. 10-step task at 80% accuracy ≈ 11%) | Mostly generic ("a business may…") |
+| **Depth on newer ideas** | Covers extras like QLoRA, reasoning distillation, overtraining (Llama 3), the data wall | Covers GQA, RoPE, sparse attention, and a tidy "choosing the right approach" table |
+| **Structure** | Step-by-step flow, "quick recap" and next-step offers | Clean sections, a conclusion, summary tables |
+| **Visuals** | Text and tables only | Includes image links (many unrelated or broken-looking) |
+| **Caution and accuracy** | Notes trade-offs and the "mirage" debate | Also balanced; adds helpful caveats |
+
+## Key differences
+
+- **Teaching approach:** Mine is built to *explain*. ChatGPT's reads more like *lecture notes you'd submit*.
+- **Fit for you:** Since you prefer simple, step-by-step, analogy-driven guidance, my version matches that better.
+- **Where ChatGPT is stronger:** Its formal math, its exam-ready structure, and its extra architecture tricks (GQA, RoPE) are useful for **reports or assignments**.
+- **Small accuracy note:** ChatGPT's Chinchilla example ("70B with 140B tokens vs 1.4T tokens") is explicitly illustrative. Mine used the real Gopher vs Chinchilla comparison, which ChatGPT also mentions at the end.
+
 
 # Result
 Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs) is done.
